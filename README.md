@@ -1,6 +1,6 @@
 # SPEC Lab Workshop: Intro to ggplot2
 
-This workshop provides a brief introduction to data visualization in `R` using the `ggplot2` package. The two part workshop is designed to introduce undergraduate and graduate research assistant a crash course in producing publication-ready graphs in `R`.
+This workshop provides an introduction to data visualization in `R` using the `ggplot2` package. The two part workshop is designed to give undergraduate and graduate research assistant a crash course in producing publication ready graphs in `R`.
 
 * Instructor: [Therese Anders](http://dornsife.usc.edu/anders).
 * Workshop part of the training in the [Security and Political Economy (SPEC) Lab](https://dornsife.usc.edu/spec) at USC.
