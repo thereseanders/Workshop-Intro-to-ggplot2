@@ -11,4 +11,5 @@ You will need [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio
 Please download the entire repository as a `.zip` file and store it locally on your machine prior to the workshop. **You will at minimum need the files contained in the `/data/` folder to follow along the day of the workshop.** 
 
 ## Notes
+The complete workshop material will be posted by April 6 2017.
 Solutions to the homework will be posted the day of the second part of this workshop.
