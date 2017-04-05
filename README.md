@@ -9,3 +9,6 @@ This workshop provides an introduction to data visualization in `R` using the `g
 You will need [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio.com/products/rstudio/download/) installed on your machine. If you do not yet have these on your computer, please download and install [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio.com/products/rstudio/download/) prior to the workshop.
 
 Please download the entire repository as a `.zip` file and store it locally on your machine prior to the workshop. **You will at minimum need the files contained in the `/data/` folder to follow along the day of the workshop.** 
+
+## Notes
+Solutions to the homework will be posted the day of the second part of this workshop.
