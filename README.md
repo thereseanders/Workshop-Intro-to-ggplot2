@@ -12,4 +12,5 @@ Please download the entire repository as a `.zip` file and store it locally on y
 
 ## Notes
 The complete workshop material will be posted by April 6 2017.
+
 Solutions to the homework will be posted the day of the second part of this workshop.
