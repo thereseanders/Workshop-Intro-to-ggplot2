@@ -21,5 +21,5 @@ This repository contains the following files:
 * `workshop_ggplot2_lecture1_170407.md`: Open this to view the lecture notes and code for the first part of the workshop in your browser.
 * `workshop_ggplot2_lecture1_170407.pdf`: Download the lecture notes and code for the first part of the workshop as a PDF.
 * `workshop_ggplot2_homework1_170407.pdf`: Download the homework for the first part of the workshop as a PDF.
-* `/data/`: Contains the .csv file for the original World Development Indicator data, the `R` code to clean the data, and cleaned data .csv file for both parts of the workshop.
+* `/data/`: Contains the .csv file for the original World Development Indicator data, the `R` code to clean the data, and the cleaned data .csv file for both parts of the workshop.
 * `workshop_ggplot2_lecture1_170407_files/figure-html`: This folder contains all the figures embedded in the .md file.
