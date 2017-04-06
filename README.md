@@ -13,6 +13,13 @@ You will need [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio
 Please download the entire repository as a `.zip` file and store it locally on your machine prior to the workshop. **You will at minimum need the files contained in the `/data/` folder to follow along the day of the workshop.** 
 
 ## Notes
-The complete workshop material will be posted by 6 April 2017.
-
 Solutions to the homework will be posted the day of the second part of this workshop.
+
+## Files
+This repository contains the following files:
+
+* `workshop_ggplot2_lecture1_170407.md`: Open this to view the lecture notes and code for the first part of the workshop in your browser.
+* `workshop_ggplot2_lecture1_170407.pdf`: Download the lecture notes and code for the first part of the workshop as a PDF.
+* `workshop_ggplot2_homework1_170407.pdf`: Download the homework for the first part of the workshop as a PDF.
+* `/data/`: Contains the .csv file for the original World Development Indicator data, the `R` code to clean the data, and cleaned data .csv file for both parts of the workshop.
+* `workshop_ggplot2_lecture1_170407_files/figure-html`: This folder contains all the figures embedded in the .md file.
