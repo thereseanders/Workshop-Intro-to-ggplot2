@@ -5,6 +5,8 @@ This workshop provides an introduction to data visualizcrashation in `R` using t
 * Instructor: [Therese Anders](http://dornsife.usc.edu/anders).
 * Workshop part of the training in the [Security and Political Economy (SPEC) Lab](https://dornsife.usc.edu/spec) at USC and IR392.
 
+The first part of the workshop introduces univariate graphical data summaries, parameters that control the appearance of the plot, the visualization of data across multiple groups, and how to save plots.
+
 ## Instructions
 You will need [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio.com/products/rstudio/download/) installed on your machine. If you do not yet have these on your computer, please download and install [`R`](https://www.r-project.org) and [RStudio](https://www.rstudio.com/products/rstudio/download/) prior to the workshop.
 
