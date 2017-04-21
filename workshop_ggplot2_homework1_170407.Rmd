@@ -1,0 +1,62 @@
+---
+title: 'SPEC Data Visualization Workshop: Homework 1'
+author: "Therese Anders"
+date: "April 7, 2017"
+output: pdf_document
+---
+
+**Instructions**: Re-create the graphs as close as possible. Pay attention to detail, such as the scaling and labeling of the axes, the linetypes used, the background of the plot, or the legends. Try to match the colors as closely as possible, but deviations are ok. 
+
+Some skills required to re-create the graphs were not covered in class. You will have to google to complete the homework. Please feel free to work in groups and seek help from your peers.
+
+```{r, echo = F, warning = F, message = F}
+setwd("/Users/thereseanders/Documents/UNI/USC/Spring_2017/SPECRTraining/Part1")
+library(ggplot2)
+library(foreign)
+dat <- read.csv("./data/wdi_cleaned_part1.csv",
+                stringsAsFactors = F)
+```
+
+
+## Graph 1
+```{r, echo = F, warning = F, message = F, fig.width= 8, fig.height=5}
+ggplot(subset(dat, year %in% c(1992, 2002, 2012)), 
+       aes(x = renewable_energyuse, 
+           color = factor(year), 
+           linetype = factor(year))) +
+  geom_line(stat = "density") +
+  labs(title = "Distribution of renewable energy use across all countries",
+       subtitle = "Data source: World Development Indicators",
+       x = "Renewable energy consumption (% of total final energy consumption)",
+       y = "Density") + 
+  theme_bw() +
+  scale_color_manual(name = "Year",
+                     values = c("darkorange",
+                                "cyan",
+                                "blue")) +
+  scale_linetype_manual(name = "Year",
+                        values = c("dotted",
+                                   "solid",
+                                   "dashed")) +
+  theme(legend.key.size = unit(1, "cm")) +
+  coord_cartesian(ylim = c(0, 0.02))
+```
+
+## Graph 2
+```{r, echo = F, warning = F, message = F, fig.width= 8, fig.height=7}
+ggplot(subset(dat, country %in% c("United States",
+                                  "Germany",
+                                  "Brazil",
+                                  "Russian Federation",
+                                  "India",
+                                  "China")), 
+       aes(x = energyuse_pop)) +
+  geom_density(fill = "blue", alpha = 0.3, color = NA) +
+  facet_wrap(~ factor(country), ncol = 2) +
+  theme_bw() +
+  labs(title = "Per capita energy consumption between 1992 and 2014",
+       subtitle = "Data source: World Development Indicators",
+       x = "Energy use (kg of oil equivalent per capita)",
+       y = "Density")
+```
+
